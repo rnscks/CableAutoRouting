@@ -3,5 +3,12 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.formatting.provider": "none"
+  "python.formatting.provider": "none",
+  "terminal.integrated.profiles.windows": {
+    "GitBash": {
+      "source": "Git Bash",
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
