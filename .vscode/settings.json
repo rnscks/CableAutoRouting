@@ -10,5 +10,14 @@
       "path": ["C:\\Program Files\\Git\\bin\\bash.exe"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./DQNProject",
+    "-p",
+    "test_*.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
 }
